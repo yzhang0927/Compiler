@@ -5,11 +5,10 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 class Test {
-    private static final String TESTCASE_DIR = "testcases/p1test";
-    private static final int TESTCASE_FIRST = 1; 
-    private static final int TESTCASE_LAST = 5; 
+    private static final int TESTCASE_FIRST = 0;
+    private static final int TESTCASE_LAST = 5;
     private static FakeCompilerScanner testScanner; 
-
+    private static String TESTCASE_DIR = "testcases/p2test";
     public static void main(String[] args){
         if (args == null || args.length < 1 || args[0] == null) {
             throw new IllegalArgumentException("Null Input"); 
